@@ -83,7 +83,7 @@ int main(void)
     hiwgd.Init.Reload = 1500;
     HAL_IWDG_Init(&hiwgd);
 
-    bfdev_log_info("Benchmark for STM32F4xx.\n");
+    bfdev_log_info("Benchmark for STM32F1xx.\n");
     bfdev_log_info("Bfdev version: %s\n", __bfdev_stringify(BFDEV_VERSION));
     bfdev_log_info("SYSCLK freq: %u\n", HAL_RCC_GetSysClockFreq());
     bfdev_log_info("AHB freq: %u\n", HAL_RCC_GetHCLKFreq());
